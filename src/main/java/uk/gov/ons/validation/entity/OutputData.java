@@ -16,4 +16,14 @@ public class OutputData {
 
     public OutputData() {
     }
+
+    @Override
+    public String toString() {
+        return "OutputData{" +
+                "valueFormula='" + valueFormula + '\'' +
+                ", triggered=" + triggered +
+                ", metaData=" + metaData +
+                ", error=" + error +
+                '}';
+    }
 }

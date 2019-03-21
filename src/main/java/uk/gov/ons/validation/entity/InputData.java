@@ -8,6 +8,10 @@ public class InputData {
     public InputData() {
     }
 
+    public InputData(String value) {
+        this.value = value;
+    }
+
     public String getValue() {
         return value;
     }
